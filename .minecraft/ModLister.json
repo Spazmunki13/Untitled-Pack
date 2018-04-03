@@ -72,6 +72,14 @@
     "m": "e0bb9e270e953f489f418f9670a38dad"
   },
   {
+    "n": "Bullseye",
+    "v": "3.0.6",
+    "f": "Bullseye-1.12.2-3.0.6.jar",
+    "a": "Forstride",
+    "u": "https://minecraft.curseforge.com/projects/bullseye",
+    "m": "db87372aaf8cc56a17c729dd630771b3"
+  },
+  {
     "n": "Carry On",
     "v": "1.8",
     "f": "CarryOn+MC1.12.2+v1.8.jar",
@@ -254,6 +262,14 @@
     "a": "mangoose",
     "u": "",
     "m": "492c1dd68562b6122cd7f568fa2d2d55"
+  },
+  {
+    "n": "Earthworks",
+    "v": "1.3.4.3",
+    "f": "Earthworks-1.12-1.3.6.jar",
+    "a": "Alsender",
+    "u": "",
+    "m": "ccf12258496a6e5936b6e0bc6def74b3"
   },
   {
     "n": "Environmental Creepers",
