@@ -200,6 +200,14 @@
     "m": "f4902745e65c66c5fc107fb000a56308"
   },
   {
+    "n": "Crates Felt Blue",
+    "v": "1.0",
+    "f": "cfb-1.0.jar",
+    "a": "mangoose",
+    "u": "",
+    "m": "856f7994d3a040b6a21c889b8230f2d8"
+  },
+  {
     "n": "CT TinyCoal",
     "v": "1.12.2-1.0.2",
     "f": "cttinycoal-1.12.2-1.0.2.jar",
@@ -272,6 +280,14 @@
     "m": "ccf12258496a6e5936b6e0bc6def74b3"
   },
   {
+    "n": "Engineer\u0027s Doors",
+    "v": "0.4.0",
+    "f": "engineersdoors-0.4.jar",
+    "a": "Nihiltres",
+    "u": "",
+    "m": "42b2baf363578410b8d98628d29cc934"
+  },
+  {
     "n": "Environmental Creepers",
     "v": "1.4.0",
     "f": "environmentalcreepers-1.12.2-1.4.0.jar",
@@ -318,6 +334,22 @@
     "a": "BluSunrize, Damien A.W. Hazard",
     "u": "https://github.com/BluSunrize/ImmersiveEngineering",
     "m": "d67baa582cf8ddc334d6fa5a4508a57e"
+  },
+  {
+    "n": "Immersive Petroleum",
+    "v": "1.1.9",
+    "f": "immersivepetroleum-1.12.2-1.1.9.jar",
+    "a": "Flaxbeard",
+    "u": "https://github.com/Flaxbeard/ImmersivePetroleum",
+    "m": "57ba127778e579d10d705f9f8359d2e0"
+  },
+  {
+    "n": "Immersive Tech",
+    "v": "1.3.7",
+    "f": "immersivetech-1.12-1.3.7.jar",
+    "a": "FerroO2000",
+    "u": "https://github.com/FerroO2000/Immersive-Tech",
+    "m": "1fb7fd3ded3947eab6c86fcf5a32ddb2"
   },
   {
     "n": "Impart",
