@@ -5,3 +5,6 @@
 .minecraft/TombManyGraves/
 .minecraft/config/XaeroWaypoints/
 .minecraft/config/XaeroWorldMap/
+.minecraft/usercache.json
+.minecraft/usernamecache.json
+.minecraft/config/jei/worldSettings.cfg
