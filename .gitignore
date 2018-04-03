@@ -1,2 +1,7 @@
 *.log
 .minecraft/logs/
+.minecraft/mods/
+.minecraft/saves/
+.minecraft/TombManyGraves/
+.minecraft/config/XaeroWaypoints/
+.minecraft/config/XaeroWorldMap/
