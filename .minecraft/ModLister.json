@@ -496,6 +496,14 @@
     "m": "b3cd15a245e69b1eed2792239ee4442a"
   },
   {
+    "n": "OpenEye",
+    "v": "0.8",
+    "f": "OpenEye-1.12.2-0.8.jar",
+    "a": "boq, Mikee",
+    "u": "https://openmods.info/",
+    "m": "66ec07363bab50f62e1a7c671df2d758"
+  },
+  {
     "n": "Pam\u0027s HarvestCraft",
     "v": "1.12.2t",
     "f": "Pam\u0027s+HarvestCraft+1.12.2t.jar",
@@ -616,6 +624,14 @@
     "m": "d88d031739ad58e2de9d9c2c57b07962"
   },
   {
+    "n": "The One Probe",
+    "v": "1.4.21",
+    "f": "theoneprobe-1.12-1.4.21.jar",
+    "a": "McJty",
+    "u": "",
+    "m": "cad5c279bf34728bdb07513e617c2520"
+  },
+  {
     "n": "Tinkers\u0027 Complement",
     "v": "${version}",
     "f": "TinkersComplement-1.12.2-0.2.3b.jar",
@@ -638,6 +654,14 @@
     "a": "M4thG33k",
     "u": "",
     "m": "7932b15b3ce25e4111d8f7e282bf1d19"
+  },
+  {
+    "n": "Totemic",
+    "v": "1.12.2-0.10.3",
+    "f": "Totemic-1.12.2-0.10.3.jar",
+    "a": "Pokefenn, ljfa",
+    "u": "http://minecraft.curseforge.com/projects/totemic",
+    "m": "75b09accfafe1cb680ef9f0ce57acc29"
   },
   {
     "n": "Tough As Nails",
