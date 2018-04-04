@@ -248,6 +248,14 @@
     "m": "d7becad4f6025d6511766536a7f86de7"
   },
   {
+    "n": "DungeonTactics",
+    "v": "DT-0.14.2",
+    "f": "DungeonTactics-1.12.2-0.14.2.jar",
+    "a": "PegBeard",
+    "u": "https://minecraft.curseforge.com/projects/dungeon-tactics",
+    "m": "6829f33fdad018b1c68dc7830ad0f1cc"
+  },
+  {
     "n": "Dynamic Surroundings",
     "v": "3.4.9.11",
     "f": "DynamicSurroundings-1.12.2-3.4.9.11.jar",
@@ -510,6 +518,14 @@
     "a": "YaLTeR",
     "u": "http://www.minecraftforum.net/topic/1518185-",
     "m": "34343a214952bd0631e7692b1bf6e586"
+  },
+  {
+    "n": "NetherEx",
+    "v": "2.1.14.15",
+    "f": "NetherEx-1.12-2.1.14.15.jar",
+    "a": "LogicTechCorp, Eleazzaar, Nazenn, Vlakk",
+    "u": "https://minecraft.curseforge.com/projects/netherex",
+    "m": "95e61a1ea78a1e40b53eab378ffdee6d"
   },
   {
     "n": "NetherPortalFix",
