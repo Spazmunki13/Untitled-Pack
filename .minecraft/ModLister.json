@@ -272,6 +272,14 @@
     "m": "1daaa65677e2f7374899adbd59010281"
   },
   {
+    "n": "Davinci\u0027s Vessels",
+    "v": "@DVESSELSVER@",
+    "f": "davincisvessels-1.12-6.340-full.jar",
+    "a": "",
+    "u": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2364835",
+    "m": "fd744ba7fbc7647a062ffdd3b3f86bf5"
+  },
+  {
     "n": "Dropt",
     "v": "1.12.2-1.9.2",
     "f": "dropt-1.12.2-1.9.2.jar",
@@ -566,6 +574,22 @@
     "a": "YaLTeR",
     "u": "http://www.minecraftforum.net/topic/1518185-",
     "m": "34343a214952bd0631e7692b1bf6e586"
+  },
+  {
+    "n": "Moving World",
+    "v": "1.12-6.342",
+    "f": "movingworld-1.12-6.342-full.jar",
+    "a": "",
+    "u": "",
+    "m": "9ef54bc4402d703fda1ce74113edad34"
+  },
+  {
+    "n": "MovingWorld CORE",
+    "v": "",
+    "f": "minecraft.jar",
+    "a": "Darkevilmac",
+    "u": "",
+    "m": ""
   },
   {
     "n": "NetherEx",
