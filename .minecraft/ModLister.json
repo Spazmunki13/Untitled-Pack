@@ -73,11 +73,11 @@
   },
   {
     "n": "BitHop",
-    "v": "master-1.27",
-    "f": "BitHop-v1.0.jar",
-    "a": "b0undarybreaker",
+    "v": "master-1.33",
+    "f": "BitHop-v1.0.1.jar",
+    "a": "b0undarybreaker, capitalthree",
     "u": "",
-    "m": "b7f503e56759bc61760ee8788d3a255e"
+    "m": "e892b29218b16b66aa333080bc7edc6c"
   },
   {
     "n": "Bookshelf",
@@ -153,11 +153,11 @@
   },
   {
     "n": "Comforts",
-    "v": "1.1.0.2",
-    "f": "comforts-1.12.2-1.1.0.2.jar",
+    "v": "1.1.0.3",
+    "f": "comforts-1.12.2-1.1.0.3.jar",
     "a": "C4",
     "u": "",
-    "m": "79069da27e181e89f91a55aa2e88323b"
+    "m": "f4f0ba792b5b8cd02ee6363a1fa71f05"
   },
   {
     "n": "Construct\u0027s Armory",
@@ -777,11 +777,11 @@
   },
   {
     "n": "Wizardry",
-    "v": "0.8.3",
-    "f": "wizardry-0.8.3.jar",
+    "v": "0.8.5",
+    "f": "wizardry-0.8.5.jar",
     "a": "Demoniaque, thecodewarrior, wiresegal, pau101, murapix, Mechwarrior99, InsomniaKitten",
     "u": "",
-    "m": "ccf5767d42731cfdc415be0408c52871"
+    "m": "1e8312c58a3a71b52e8291affc4c80aa"
   },
   {
     "n": "Xaero\u0027s Minimap",
