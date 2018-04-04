@@ -124,6 +124,8 @@ key_key.jei.recipeBack:14
 key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.carry.desc:42
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
