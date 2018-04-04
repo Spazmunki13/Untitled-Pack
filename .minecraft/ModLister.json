@@ -32,6 +32,14 @@
     "m": "b8d401b23a3d6ba892313e21bc47addd"
   },
   {
+    "n": "B.A.S.E",
+    "v": "3.7.1",
+    "f": "base-1.12.2-3.7.1.jar",
+    "a": "SkySom, Lanse505, Jared, EwyBoy",
+    "u": "http://minecraft.curseforge.com/projects/b-a-s-e",
+    "m": "c004b068e06f553661dd03521afc54d3"
+  },
+  {
     "n": "Bauble Of Undying",
     "v": "1.0.1",
     "f": "BaubleOfUndying-1.12-1.0.1.jar",
@@ -166,6 +174,14 @@
     "a": "C4",
     "u": "",
     "m": "45bfab27cdd8150276a292b0bff0d84d"
+  },
+  {
+    "n": "ContentTweaker",
+    "v": "1.12.2-4.5.0",
+    "f": "ContentTweaker-1.12.2-4.5.0.jar",
+    "a": "SkySom",
+    "u": "teamacronymcoders.com",
+    "m": "b2dd2875b0e3c81be7c1c55e8c14eef3"
   },
   {
     "n": "Controlling",
