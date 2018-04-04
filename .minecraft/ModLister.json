@@ -72,6 +72,14 @@
     "m": "e0bb9e270e953f489f418f9670a38dad"
   },
   {
+    "n": "Bookshelf",
+    "v": "2.3.539",
+    "f": "Bookshelf-1.12.2-2.3.539.jar",
+    "a": "darkhax, lclc98",
+    "u": "http://minecraft.curseforge.com/projects/bookshelf",
+    "m": "89702f6f107a85e63b746a87bdbaed90"
+  },
+  {
     "n": "Bullseye",
     "v": "3.0.6",
     "f": "Bullseye-1.12.2-3.0.6.jar",
@@ -406,6 +414,14 @@
     "a": "Ivorius",
     "u": "http://www.minecraftforum.net/topic/563257-172",
     "m": ""
+  },
+  {
+    "n": "Jewelers Construct",
+    "v": "@VERSION@",
+    "f": "jewelersconstruct-1.12.2-1.8.0.jar",
+    "a": "Darkhax, Jaredlll08",
+    "u": "",
+    "m": "12f3325bd2d21fd3e897717eb0018314"
   },
   {
     "n": "Just a Few Fish",
