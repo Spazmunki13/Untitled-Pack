@@ -384,6 +384,22 @@
     "m": "033f1445c04b4c699a850dc8922a5042"
   },
   {
+    "n": "FTB Utilities",
+    "v": "5.0.1.12",
+    "f": "FTBUtilities-5.0.1.12.jar",
+    "a": "LatvianModder",
+    "u": "http://minecraft.curseforge.com/projects/ftb-utilities",
+    "m": "2b96dc7ed0c59f0dd1bd6fe12c9b1b2f"
+  },
+  {
+    "n": "FTBLib",
+    "v": "5.0.1.15",
+    "f": "FTBLib-5.0.1.15.jar",
+    "a": "LatvianModder",
+    "u": "http://minecraft.curseforge.com/projects/ftblib",
+    "m": "792d82fff50189f8d149f9383675b5be"
+  },
+  {
     "n": "Immersive Engineering",
     "v": "0.12-80",
     "f": "ImmersiveEngineering-0.12-80.jar",
