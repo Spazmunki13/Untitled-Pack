@@ -8,4 +8,4 @@ This is a work in progress pack that I'm putting together for the fun of it.
 
 + Work out Tech and Magic aspects, currently have Immersive Engineering and Wizardry
 + Tweak recipes so that they look more like that final product
-+ Remove and hide Dungeon Tactics' shields
++ ~~Remove and hide Dungeon Tactics' shields~~
