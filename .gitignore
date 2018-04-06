@@ -10,3 +10,4 @@
 .minecraft/crash-reports/
 .minecraft/reports/
 .minecraft/backups/
+.minecraft/.mixin.out/
