@@ -120,6 +120,11 @@ key_key.davincis.brake:0
 key_key.davincis.align:0
 key_key.davincis.decompile:0
 key_key.davincis.shipinv:0
+key_key.ping:47
+key_ping:key.alert:75
+key_ping:key.mine:76
+key_ping:key.look:77
+key_ping:key.goto:72
 key_key.wearablebackpacks.open:48
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:28
