@@ -1,0 +1,96 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:tallgrass:1,2",
+			"minecraft:double_plant:2,3",
+			"biomesoplenty:plant_0:0,1,7,8",
+			"biomesoplenty:plant_1:0,7"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "minecraft:flint",
+			  "contenttweaker:sharp_flint"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 40
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:grass_clippings"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 60
+            }
+          }
+        }
+      ]
+    },
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:tallgrass:1,2",
+			"minecraft:double_plant:2,3",
+			"biomesoplenty:plant_0:0,1,7,8",
+			"biomesoplenty:plant_1:0,7"
+          ] 
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "dungeontactics:stone_knife"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:grass_clippings"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:grass_clippings"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

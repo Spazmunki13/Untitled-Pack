@@ -1,0 +1,110 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:gravel"
+          ]
+		},
+        "drops": {
+          "items": [
+            "minecraft:flint"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 5
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:sharp_flint"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:blunt_flint"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          }
+        }
+      ]
+    },
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:dirt",
+			"minecraft:grass",
+            "biomesoplenty:dirt:0,1,2",
+            "biomesoplenty:grass:2,3,4,5,7"
+          ]
+		}
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 5
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:blunt_flint"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:sharp_flint"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 92
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
