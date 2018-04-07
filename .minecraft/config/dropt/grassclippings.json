@@ -11,6 +11,7 @@
           ] 
         },
         "harvester": {
+		  "type": "PLAYER",
           "heldItemMainHand": {
             "items": [
               "minecraft:flint",
@@ -53,6 +54,7 @@
           ] 
         },
         "harvester": {
+		  "type": "PLAYER",
           "heldItemMainHand": {
             "items": [
               "dungeontactics:stone_knife"
