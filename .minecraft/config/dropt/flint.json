@@ -4,7 +4,14 @@
       "match": {
         "blocks": {
           "blocks": [
-            "minecraft:gravel"
+            "minecraft:gravel",
+            "minecraft:dirt:0,1,2",
+			"minecraft:grass",
+			"minecraft:grass_path",
+            "minecraft:mycelium",
+            "biomesoplenty:dirt:0,1,2,8,9,10",
+            "biomesoplenty:grass:2,3,4,5,7",
+			"biomesoplenty:grass_path:0,1,2"
           ]
 		},
         "drops": {
@@ -67,7 +74,7 @@
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 2
             }
           },
           "item": {
@@ -79,31 +86,7 @@
         {
           "selector": {
             "weight": {
-              "value": 2
-            }
-          },
-          "item": {
-            "items": [
-              "contenttweaker:blunt_flint"
-            ]
-          }
-        },
-        {
-          "selector": {
-            "weight": {
-              "value": 1
-            }
-          },
-          "item": {
-            "items": [
-              "contenttweaker:sharp_flint"
-            ]
-          }
-        },
-        {
-          "selector": {
-            "weight": {
-              "value": 92
+              "value": 98
             }
           }
         }
