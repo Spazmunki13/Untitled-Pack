@@ -80,7 +80,7 @@ import crafttweaker.item.IItemStack;
 
 		recipes.addShapedMirrored("flint_knife", <dungeontactics:stone_knife>, [
 			[grass_binding, sharp_flint], 
-			[stickWood, knife_guard]
+			[knife_guard, null]
 		]);
 		recipes.addShapedMirrored("flint_pickaxe", <minecraft:stone_pickaxe>, [
 			[sharp_flint, grass_binding], 
