@@ -16,7 +16,7 @@ import crafttweaker.item.IItemStack;
 
 	recipes.addShapeless("sharp_flint", sharp_flint, [flint.transformReplace(blunt_flint), flint]);
 
-// Add attack damage and attack speed to flint tools
+/*// Add attack damage and attack speed to flint tools
 
 	var flint_knife as IItemStack = <contenttweaker:flint_knife>.withTag({
 		AttributeModifiers:[
@@ -52,33 +52,46 @@ import crafttweaker.item.IItemStack;
 			{Slot:"mainhand",AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:-2.5,Operation:0,UUIDLeast:1,UUIDMost:2}
 		],
 		HideFlags:2
-	});
+	});*/
 	
 // Recipes
 
-	recipes.addShapedMirrored("flint_knife", flint_knife, [
+	recipes.addShapedMirrored("flint_knife", <dungeontactics:stone_knife>, [
 		[sharp_flint], 
 		[grass_binding], 
 		[stickWood]
 	]);
-	recipes.addShapedMirrored("flint_pickaxe", flint_pickaxe, [
+	recipes.addShapedMirrored("flint_pickaxe", <minecraft:stone_pickaxe>, [
 		[sharp_flint, grass_binding, sharp_flint], 
 		[null, stickWood, null]
 	]);
-	recipes.addShapedMirrored("flint_shovel", flint_shovel, [
+	recipes.addShapedMirrored("flint_shovel", <minecraft:stone_shovel>, [
 		[blunt_flint, grass_binding], 
 		[null, stickWood]
 	]);
-	recipes.addShapedMirrored("flint_axe", flint_axe, [
+	recipes.addShapedMirrored("flint_axe", <minecraft:stone_axe>, [
 		[flint, grass_binding], 
 		[null, stickWood]
 	]);
-	recipes.addShapedMirrored("flint_hoe", flint_hoe, [
+	recipes.addShapedMirrored("flint_hoe", <minecraft:stone_hoe>, [
 		[sharp_flint, grass_binding], 
 		[null, stickWood]
 	]);
 	
-	// Hide plain flint tools
+	// Rename Stone Tools to Flint Tools
+	
+		<dungeontactics:stone_knife>.displayName = "Flint Knife";
+		<minecraft:stone_pickaxe>.displayName = "Flint Pickaxe";
+		<minecraft:stone_shovel>.displayName = "Flint Shovel";
+		<minecraft:stone_axe>.displayName = "Flint Axe";
+		<minecraft:stone_hoe>.displayName = "Flint Hoe";
+		
+	// Remove Stone Tools which make no sense
+	
+		mods.jei.JEI.removeAndHide(<minecraft:stone_sword>);
+		//mods.jei.JEI.removeAndHide();
+	
+	/*// Hide plain flint tools
 	
 		mods.jei.JEI.hide(<contenttweaker:flint_knife>);
 		mods.jei.JEI.hide(<contenttweaker:flint_pickaxe>);
@@ -92,4 +105,4 @@ import crafttweaker.item.IItemStack;
 		mods.jei.JEI.addItem(flint_pickaxe);
 		mods.jei.JEI.addItem(flint_shovel);
 		mods.jei.JEI.addItem(flint_axe);
-		mods.jei.JEI.addItem(flint_hoe);
+		mods.jei.JEI.addItem(flint_hoe);*/
