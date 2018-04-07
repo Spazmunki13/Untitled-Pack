@@ -14,6 +14,9 @@
 			"biomesoplenty:grass_path:0,1,2"
           ]
 		},
+        "harvester": {
+		  "type": "PLAYER"
+		},
         "drops": {
           "items": [
             "minecraft:flint"
@@ -67,6 +70,9 @@
             "biomesoplenty:grass:2,3,4,5,7",
 			"biomesoplenty:grass_path:0,1,2"
           ]
+		},
+        "harvester": {
+		  "type": "PLAYER"
 		}
       },
       "replaceStrategy": "ADD",
