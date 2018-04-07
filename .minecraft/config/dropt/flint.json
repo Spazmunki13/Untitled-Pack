@@ -52,10 +52,13 @@
       "match": {
         "blocks": {
           "blocks": [
-            "minecraft:dirt",
+            "minecraft:dirt:0,1,2",
 			"minecraft:grass",
-            "biomesoplenty:dirt:0,1,2",
-            "biomesoplenty:grass:2,3,4,5,7"
+			"minecraft:grass_path",
+            "minecraft:mycelium",
+            "biomesoplenty:dirt:0,1,2,8,9,10",
+            "biomesoplenty:grass:2,3,4,5,7",
+			"biomesoplenty:grass_path:0,1,2"
           ]
 		}
       },
