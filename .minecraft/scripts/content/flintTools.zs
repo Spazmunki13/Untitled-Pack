@@ -5,6 +5,12 @@ import mods.contenttweaker.IItemDestroyedBlock;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Commands;
 	
+	// Knife Guard
+	
+		var knife_guard = VanillaFactory.createItem("knife_guard");
+		knife_guard.register();
+	
+/*
 	// Flint Knife
 
 		var flint_knife = VanillaFactory.createItem("flint_knife");
@@ -37,7 +43,7 @@ import mods.contenttweaker.Commands;
 			return true;
 		};
 		flint_shovel.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-			var amidirt = world.getBlockState(pos)/*.block as IBlock()*/;
+			var amidirt = world.getBlockState(pos);
 			if (amidirt == <block:minecraft:grass>)
 			{
 				world.setBlockState(<block:minecraft:grass_path>, pos);
@@ -98,7 +104,7 @@ import mods.contenttweaker.Commands;
 		flint_hoe.toolLevel = 0;
 		flint_hoe.maxDamage = 95;
 		flint_hoe.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-			var amidirt = world.getBlockState(pos)/*.block as IBlock()*/;
+			var amidirt = world.getBlockState(pos);
 			if (amidirt == <block:minecraft:dirt> | amidirt == <block:minecraft:grass>)
 			{
 				world.setBlockState(<block:minecraft:farmland:0>, pos);
@@ -137,3 +143,4 @@ import mods.contenttweaker.Commands;
 			return ActionResult.pass();
 		};
 		flint_hoe.register();
+*/
