@@ -186,6 +186,9 @@ key_dsurround.cfg.keybind.Volume:0
 key_dsurround.cfg.keybind.LightLevel:65
 key_dsurround.cfg.keybind.ChunkBorders:64
 key_presets.cfg.keybind.Presets:0
+key_key.dragon_fireAttack:19
+key_key.dragon_strike:34
+key_key.dragon_down:45
 key_key.itemzoom.toggle:0
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
