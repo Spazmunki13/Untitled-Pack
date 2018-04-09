@@ -13,3 +13,5 @@
 .minecraft/.mixin.out/
 .minecraft/local/ftbutilities/
 .minecraft/llibrary/
+.minecraft/config/dropt/TEMPLATE.json.disabled
+*.psd
