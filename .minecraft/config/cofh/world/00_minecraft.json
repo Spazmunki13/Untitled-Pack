@@ -44,6 +44,7 @@
 		},
 
 		"diorite": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -70,6 +71,7 @@
 		},
 
 		"granite": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -96,6 +98,7 @@
 		},
 
 		"andesite": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
