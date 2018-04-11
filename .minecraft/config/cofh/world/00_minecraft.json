@@ -398,7 +398,7 @@
 				"block": {
 					"name": "iceandfire:sapphire_ore"
 				},
-				"material": "minecraft:sand",
+				"material": "minecraft:stone",
 				"cluster-size": 1
 			},
 			"cluster-count": 12,
