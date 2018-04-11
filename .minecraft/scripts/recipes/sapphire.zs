@@ -3,6 +3,12 @@ import mods.chisel.Carving;
 
 // Hide I&F's Sapphire Ore
 
+	mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:6>);
+	mods.jei.JEI.removeAndHide(<biomesoplenty:gem:6>);
+	
+/*
+// Hide I&F's Sapphire Ore
+
 	mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
 	
 	furnace.remove(<iceandfire:sapphire_gem>);
@@ -17,6 +23,13 @@ import mods.chisel.Carving;
 	mods.chisel.Carving.addGroup("Sapphire Gem");
 	mods.chisel.Carving.addVariation("Sapphire Gem", <iceandfire:sapphire_gem>);
 	mods.chisel.Carving.addVariation("Sapphire Gem", <biomesoplenty:gem:6>);
+*/
+
+// Add Chisel Group for Sapphire Blocks
+
+	mods.chisel.Carving.addGroup("Sapphire Block");
+	mods.chisel.Carving.addVariation("Sapphire Block", <iceandfire:sapphire_block>);
+	mods.chisel.Carving.addVariation("Sapphire Block", <biomesoplenty:gem_block:6>);
 	
 // Make I&F's Sapphire Block Recipe only use I&F's Sapphire Gem
 	
