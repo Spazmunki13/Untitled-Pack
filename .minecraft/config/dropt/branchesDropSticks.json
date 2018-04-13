@@ -1,0 +1,42 @@
+{
+	"rules": [
+		{
+			"match": {
+				"blocks": {
+					"blocks": [
+						"contenttweaker:branch"
+					]
+				},
+				"harvester": {
+					"type": "PLAYER"
+				}
+			},
+			"replaceStrategy": "REPLACE_ALL",
+			"drops": [
+				{
+					"selector": {
+						"weight": {
+							"value": 90
+						}
+					},
+					"item": {
+						"items": ["minecraft:stick"]
+					}
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 10
+						}
+					},
+					"item": {
+						"items": ["minecraft:stick"],
+						"quantity": {
+							"fixed": 2
+						}
+					}
+				}
+			]
+		}
+	]
+}
