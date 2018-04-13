@@ -390,43 +390,6 @@
 				]
 			},
 			"dimension": "all"
-		},
-		
-		"sapphire": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "iceandfire:sapphire_ore"
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 1
-			},
-			"cluster-count": 12,
-			"min-height": 4,
-			"max-height": 32,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"coral_reef",
-							"kelp_forest",
-							"mangrove",
-							"mushroom_island",
-							"ocean"
-						]
-					}
-				]
-			},
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
 		}
 		}
 }
