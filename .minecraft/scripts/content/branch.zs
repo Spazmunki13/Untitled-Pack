@@ -18,7 +18,7 @@ import mods.contenttweaker.AxisAlignedBB;
 	branch.setPassable(true);
 	branch.setBlockLayer("CUTOUT");
 
-	val flatontheground = AxisAlignedBB.create(0, 0, 0, 1, 0.0625, 1);
+	val flatontheground = AxisAlignedBB.create(0.15625, 0, 0.15625, 0.84375, 0.125, 0.84375);
 
 	branch.setAxisAlignedBB(flatontheground);
 	branch.register();

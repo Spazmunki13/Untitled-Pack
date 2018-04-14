@@ -4,7 +4,20 @@
     "model": "contenttweaker:branch"
   },
   "variants": {
-    "normal": [{ "y": 0 }, { "y": 90 }, { "y": 180 }, { "y": 270 }],
+    "normal": [
+		{ "y": 0 }, 
+		{ "y": 90 }, 
+		{ "y": 180 }, 
+		{ "y": 270 }, 
+		{ "textures": {"0": "blocks/log_birch_top", "1": "blocks/log_birch"}, "y": 0 },
+		{ "textures": {"0": "blocks/log_birch_top", "1": "blocks/log_birch"}, "y": 90 },
+		{ "textures": {"0": "blocks/log_birch_top", "1": "blocks/log_birch"}, "y": 180 },
+		{ "textures": {"0": "blocks/log_birch_top", "1": "blocks/log_birch"}, "y": 270 },
+		{ "textures": {"0": "blocks/log_spruce_top", "1": "blocks/log_spruce"}, "y": 0 },
+		{ "textures": {"0": "blocks/log_spruce_top", "1": "blocks/log_spruce"}, "y": 90 },
+		{ "textures": {"0": "blocks/log_spruce_top", "1": "blocks/log_spruce"}, "y": 180 },
+		{ "textures": {"0": "blocks/log_spruce_top", "1": "blocks/log_spruce"}, "y": 270 }
+	],
     "inventory": [{}]
   }
 }
