@@ -1,5 +1,45 @@
 {
   "rules": [
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:dirt:0,1,2",
+			"minecraft:grass",
+			"minecraft:grass_path",
+            "minecraft:mycelium",
+            "biomesoplenty:dirt:0,1,2,8,9,10",
+            "biomesoplenty:grass:2,3,4,5,7",
+			"biomesoplenty:grass_path:0,1,2"
+          ]
+		},
+        "harvester": {
+		  "type": "PLAYER"
+		}
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 99
+            }
+          }
+        }
+      ]
+    },
     {
       "match": {
         "blocks": {
@@ -53,46 +93,6 @@
           "selector": {
             "weight": {
               "value": 85
-            }
-          }
-        }
-      ]
-    },
-	{
-      "match": {
-        "blocks": {
-          "blocks": [
-            "minecraft:dirt:0,1,2",
-			"minecraft:grass",
-			"minecraft:grass_path",
-            "minecraft:mycelium",
-            "biomesoplenty:dirt:0,1,2,8,9,10",
-            "biomesoplenty:grass:2,3,4,5,7",
-			"biomesoplenty:grass_path:0,1,2"
-          ]
-		},
-        "harvester": {
-		  "type": "PLAYER"
-		}
-      },
-      "replaceStrategy": "ADD",
-      "drops": [
-        {
-          "selector": {
-            "weight": {
-              "value": 2
-            }
-          },
-          "item": {
-            "items": [
-              "minecraft:flint"
-            ]
-          }
-        },
-        {
-          "selector": {
-            "weight": {
-              "value": 98
             }
           }
         }
