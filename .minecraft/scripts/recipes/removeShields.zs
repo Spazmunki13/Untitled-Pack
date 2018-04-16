@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 // Remove Dungeon Tactics shields to reduce redundant content
-
+/*
 	val shieldtype = [
 		<dungeontactics:wooden_shield>,
 		<dungeontactics:stone_shield>,
@@ -39,7 +39,7 @@ import crafttweaker.item.IItemStack;
 	for shield in shieldtype {
 		mods.jei.JEI.removeAndHide(shield);
 	}
-
+*/
 // Remove Spartan Shields' uncraftable shields
 	
 	val uncraftableshield = [

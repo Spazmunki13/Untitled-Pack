@@ -61,19 +61,19 @@ import crafttweaker.item.IItemStack;
 
 	// Remove Original Recipes
 	
-		recipes.remove(<dungeontactics:stone_knife>);
+	//	recipes.remove(<dungeontactics:stone_knife>);
 		recipes.remove(<minecraft:stone_pickaxe>);
 		recipes.remove(<minecraft:stone_shovel>);
 		recipes.remove(<minecraft:stone_axe>);
 		recipes.remove(<minecraft:stone_hoe>);
 		recipes.remove(<earthworks:tool_stone_hammer>);
-		recipes.remove(<dungeontactics:stone_hammer>);
-		recipes.remove(<dungeontactics:stone_battleaxe>);
-		recipes.remove(<dungeontactics:stone_glaive>);
+	//	recipes.remove(<dungeontactics:stone_hammer>);
+	//	recipes.remove(<dungeontactics:stone_battleaxe>);
+	//	recipes.remove(<dungeontactics:stone_glaive>);
 	
 	// Add New Recipes
 
-		recipes.addShapedMirrored("knife_guard", <contenttweaker:knife_guard>, [
+	/*	recipes.addShapedMirrored("knife_guard", <contenttweaker:knife_guard>, [
 			[null, <ore:slabWood>], 
 			[stickWood, null]
 		]);
@@ -82,7 +82,7 @@ import crafttweaker.item.IItemStack;
 			[grass_binding, sharp_flint], 
 			[knife_guard, null]
 		]);
-		recipes.addShapedMirrored("flint_pickaxe", <minecraft:stone_pickaxe>, [
+*/		recipes.addShapedMirrored("flint_pickaxe", <minecraft:stone_pickaxe>, [
 			[sharp_flint, grass_binding], 
 			[stickWood, sharp_flint]
 		]);
@@ -102,7 +102,7 @@ import crafttweaker.item.IItemStack;
 			[blunt_flint, grass_binding], 
 			[stickWood, blunt_flint]
 		]);
-		recipes.addShapedMirrored("flint_hammer", <dungeontactics:stone_hammer>, [
+/*		recipes.addShapedMirrored("flint_hammer", <dungeontactics:stone_hammer>, [
 			[null, blunt_flint, grass_binding], 
 			[null, stickWood, blunt_flint], 
 			[stickWood, null, null]
@@ -117,33 +117,33 @@ import crafttweaker.item.IItemStack;
 			[null, stickWood, grass_binding], 
 			[stickWood, null, null]
 		]);
-	
+*/	
 // Rename Stone Tools to Flint Tools
 
-	<dungeontactics:stone_knife>.displayName = "Flint Knife";
+//	<dungeontactics:stone_knife>.displayName = "Flint Knife";
 	<minecraft:stone_pickaxe>.displayName = "Flint Pickaxe";
 	<minecraft:stone_shovel>.displayName = "Flint Shovel";
 	<minecraft:stone_axe>.displayName = "Flint Axe";
 	<minecraft:stone_hoe>.displayName = "Flint Hoe";
 	<earthworks:tool_stone_hammer>.displayName = "Flint Hammer";
-	<dungeontactics:stone_hammer>.displayName = "Flint Hammer";
-	<dungeontactics:stone_battleaxe>.displayName = "Flint Battleaxe";
-	<dungeontactics:stone_glaive>.displayName = "Flint Glaive";
+//	<dungeontactics:stone_hammer>.displayName = "Flint Hammer";
+//	<dungeontactics:stone_battleaxe>.displayName = "Flint Battleaxe";
+//	<dungeontactics:stone_glaive>.displayName = "Flint Glaive";
 	
 // Rename Dungeon Tactics Hammers to Large Hammers to match my Flint Hammer
 
-	val hammers = itemUtils.getItemsByRegexRegistryName(".*dungeontactics.*hammer.*");
+/*	val hammers = itemUtils.getItemsByRegexRegistryName(".*dungeontactics.*hammer.*");
 	
 	for hammer in hammers {
 		val newname = "Large " ~ hammer.displayName;
 		hammer.displayName = newname;
 	}
-	
+*/	
 // Remove Stone Tools which make no sense
 
 	mods.jei.JEI.removeAndHide(<minecraft:stone_sword>);
-	mods.jei.JEI.removeAndHide(<dungeontactics:stone_cutlass>);
-	mods.jei.JEI.removeAndHide(<dungeontactics:stone_cestus>);
+//	mods.jei.JEI.removeAndHide(<dungeontactics:stone_cutlass>);
+//	mods.jei.JEI.removeAndHide(<dungeontactics:stone_cestus>);
 
 /*
 // Hide plain flint tools
