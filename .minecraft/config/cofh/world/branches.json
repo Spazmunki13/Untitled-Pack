@@ -31,8 +31,8 @@
 					}
 				]
 			},
-			"chunk-chance": 1,
-			"cluster-count": 4,
+			"chunk-chance": 2,
+			"cluster-count": 3,
 			"min-height": 50,
 			"max-height": 256,
 			"material": [
