@@ -41,17 +41,10 @@
 					},
 					{
 						"name": "minecraft:dirt",
-						"metadata": -1
+						"metadata": 2
 					},
 					{
 						"name": "minecraft:sand",
-						"metadata": -1
-					},
-					{
-						"name": "minecraft:gravel"
-					},
-					{
-						"name": "minecraft:stone",
 						"metadata": -1
 					},
 					{
@@ -77,6 +70,47 @@
 					{
 						"name": "biomesoplenty:grass",
 						"metadata": 7
+					}
+				],
+			"follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"pebbles_on_rocky_surface": {
+
+			"distribution": "surface",
+			"generator": {
+				"type": "cluster",
+				"block": "contenttweaker:pebble",
+				"cluster-size": 1,
+				"material": [
+					{
+						"name": "minecraft:air"
+					}
+				]
+			},
+			"chunk-chance": 1,
+			"cluster-count": 4,
+			"min-height": 50,
+			"max-height": 256,
+			"material": [
+					{
+						"name": "minecraft:dirt",
+						"metadata": 0
+					},
+					{
+						"name": "minecraft:gravel"
+					},
+					{
+						"name": "minecraft:stone",
+						"metadata": -1
 					},
 					{
 						"name": "biomesoplenty:dirt",
