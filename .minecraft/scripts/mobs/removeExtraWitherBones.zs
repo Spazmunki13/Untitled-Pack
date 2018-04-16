@@ -5,9 +5,8 @@ import crafttweaker.entity.IEntityDefinition;
 	val witherSkele = <entity:minecraft:wither_skeleton>;
 
 	witherSkele.removeDrop(<inspirations:materials:7>);
-	witherSkele.removeDrop(<tconstruct:materials:17>);
+	//witherSkele.removeDrop(<tconstruct:materials:17>);
 	witherSkele.removeDrop(<nex:item_bone_wither>);
-	//witherSkele.removeDrop(<iceandfire:witherbone>);
 	witherSkele.removeDrop(<minecraftboom:wither_bone>);
 	
 // Add Bones to Ore Dict
@@ -16,7 +15,6 @@ import crafttweaker.entity.IEntityDefinition;
 	
 	Wbone.add(
 		<nex:item_bone_wither>,
-		<iceandfire:witherbone>,
 		<minecraftboom:wither_bone>
 	);
 	
@@ -62,29 +60,6 @@ import crafttweaker.entity.IEntityDefinition;
 			recipes.addShaped("tool_sword_bone_0", <nex:tool_sword_bone>, [[null, <minecraft:gold_ingot>, null], [null, <minecraft:gold_ingot>, null], [null, Wbone, null]]);
 			recipes.addShaped("tool_sword_bone_0_alt", <nex:tool_sword_bone>, [[null, <minecraft:golden_sword>, null], [null, Wbone, null], [null, Wbone, null]]);
 			
-	// Ice and Fire
-	
-		// Remove Old Recipes
-		
-			recipes.removeByRecipeName("iceandfire:dragonbone_axe");
-			recipes.removeByRecipeName("iceandfire:dragonbone_bow");
-			recipes.removeByRecipeName("iceandfire:dragonbone_hoe");
-			recipes.removeByRecipeName("iceandfire:dragonbone_pickaxe");
-			recipes.removeByRecipeName("iceandfire:dragonbone_shovel");
-			recipes.removeByRecipeName("iceandfire:dragonbone_sword");
-			recipes.removeByRecipeName("iceandfire:wither_shard");
-		
-		// Add Recipes that use Ore Dict
-			
-			recipes.addShaped("dragonbone_axe", <iceandfire:dragonbone_axe>, [[<iceandfire:dragonbone>, <iceandfire:dragonbone>], [<iceandfire:dragonbone>, Wbone], [null, Wbone]]);
-			recipes.addShaped("dragonbone_bow", <iceandfire:dragonbone_bow>, [[null, <iceandfire:dragonbone>, <minecraft:string>], [Wbone, null, <minecraft:string>], [null, <iceandfire:dragonbone>, <minecraft:string>]]);
-			recipes.addShaped("dragonbone_hoe", <iceandfire:dragonbone_hoe>, [[<iceandfire:dragonbone>, <iceandfire:dragonbone>], [null, Wbone], [null, Wbone]]);
-			recipes.addShaped("dragonbone_pickaxe", <iceandfire:dragonbone_pickaxe>, [[<iceandfire:dragonbone>, <iceandfire:dragonbone>, <iceandfire:dragonbone>], [null, Wbone, null], [null, Wbone, null]]);
-			recipes.addShaped("dragonbone_shovel", <iceandfire:dragonbone_shovel>, [[<iceandfire:dragonbone>], [Wbone], [Wbone]]);
-			recipes.addShaped("dragonbone_sword", <iceandfire:dragonbone_sword>, [[<iceandfire:dragonbone>], [<iceandfire:dragonbone>], [Wbone]]);
-			recipes.addShapeless("wither_shard", <iceandfire:wither_shard> * 3, [Wbone]);
-
-		
 	// Minecraft Boom
 	
 		// Remove Old Recipes
