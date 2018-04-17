@@ -45,7 +45,7 @@ showEntityHeight:true
 showFlowers:true
 keepWaypointNames:false
 waypointsDistance:0.0
-waypointsDistanceMin:0.0
+waypointsDistanceMin:25.0
 waypointTp:tp
 arrowScale:1.2
 arrowColour:0
