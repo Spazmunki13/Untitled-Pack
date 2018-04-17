@@ -6,7 +6,7 @@ import mods.contenttweaker.AxisAlignedBB;
 
 // pebble
 
-	var pebble = VanillaFactory.createBlock("pebble", <blockmaterial:rock>);
+	var pebble = VanillaFactory.createBlock("pebble", <blockmaterial:piston>);
 	pebble.setFullBlock(false);
 	pebble.setLightOpacity(0);
 	pebble.setLightValue(0);
