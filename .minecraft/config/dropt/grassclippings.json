@@ -57,7 +57,7 @@
 		  "type": "PLAYER",
           "heldItemMainHand": {
             "items": [
-              "dungeontactics:stone_knife"
+              "minecraft:stone_sword"
             ]
           }
         }
